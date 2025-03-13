@@ -1,1 +1,8 @@
-exp-6a -min-median-max -In the context of Image Processing and Machine Vision (IPMV), Min-Median-Max refers to a technique used for image filtering and noise reduction. This method involves replacing each pixel value in an image with a new value calculated from the neighboring pixels. Specifically, for each pixel, the minimum, median, and maximum values of the neighboring pixels are calculated. The median value is then used as the new pixel value, effectively reducing the impact of noise and outliers in the image. This technique is particularly useful for removing salt and pepper noise, which can significantly improve the overall quality and clarity of the image. By using the median value, the Min-Median-Max technique helps preserve the edges and details in the image, resulting in a more accurate and visually appealing representation.
+exp-6a -min-median-max -Min:
+In IPMV, the Min filter replaces each pixel value with the minimum value of its neighboring pixels. This filter is useful for removing bright noise or outliers in an image. By selecting the minimum value, the filter helps to darken the image and reduce the impact of bright noise.
+
+Median:
+The Median filter replaces each pixel value with the median value of its neighboring pixels. This filter is effective in removing salt and pepper noise, which are random bright or dark pixels in an image. The median filter helps to preserve the edges and details in an image, resulting in a more accurate and visually appealing representation.
+
+Max:
+In IPMV, the Max filter replaces each pixel value with the maximum value of its neighboring pixels. This filter is useful for removing dark noise or outliers in an image. By selecting the maximum value, the filter helps to brighten the image and reduce the impact of dark noise.
